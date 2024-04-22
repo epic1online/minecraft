@@ -1,0 +1,12 @@
+main: com.Epic.cTracker
+name: cTracker
+version: 1.1.1
+api-version: 1.15
+description: Allows you to target players with your compass
+author: Anshul Raskar
+
+commands:
+   cTracker:
+      description: adds all online players to trackable list/removes all players from list
+      usage: /cTracker <setup/reset>
+      aliases: ct

@@ -1,0 +1,18 @@
+main: com.Epic.speedrunnerAssassin
+name: SpeedrunnerVsAssassin
+version: 1.0.1
+api-version: 1.16
+description: Speedrunner vs Assassin plugin based on Dream's popular series
+author: Anshul Raskar
+
+commands:
+   spdasnEnable:
+      description: Enables and disables the plugin
+      usage: /spdasnEnable
+      aliases: spe
+   speedrunner:
+      description: Adds or removes players from the speedrunner team
+      usage: /speedrunner <add/remove> <name>
+   assassin:
+      description: Adds or removes players from the assassin team
+      usage: /assassin <add/remove> <name>

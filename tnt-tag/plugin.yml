@@ -1,0 +1,45 @@
+main: com.epic.TNTTag
+name: TNTTag
+version: 1.7
+api-version: 1.12
+description: TNT Tag
+author: Anshul Raskar
+commands:
+   setspawn:
+      description: Sets the spawn at the given coordinates, if no coordinates are provided it sets to your location
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+   setspec:
+      description: Sets the spectator area at the given coordinates, if no coordinates are provided it sets to your location
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+   tntstart:
+      description: Starts the game
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+   tntstop:
+      description: Stops the game if one is running, also removes all players from the player list
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+   addplayer:
+      description: Adds a player to the game
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+   removeplayer:
+      description: Removes a player from the game
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+   setspeed:
+      description: An optional command that allows you to set the speed of the player or tnt carrier. The default is 1 for players and 3 for carriers
+      usage: /setspeed <speed> <player/carrier>
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+   tntversion:
+      description: tells you what version of the plugin that is being run
+      permission: tnttag.admin
+      permission-message: You don't have the permission to do that
+      
+permissions:
+   tnttag.admin:
+      description: Gives access to all commands
+      default: op
